@@ -1,0 +1,72 @@
+/* Default light theme */
+body {
+  margin: 0;
+  font-family: Inter, "Segoe UI", Roboto, Arial, sans-serif;
+  background: #fafafa;
+  color: #222;
+}
+
+.app.dark {
+  background: #111;
+  color: #eee;
+  height: 100%;
+}
+
+/* Header */
+.app-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #234;
+  color: white;
+  padding: 12px 20px;
+}
+
+/* Right section (button + links) */
+.app-header .right {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.app.dark .app-header {
+  background: #000;
+  color: #fff;
+}
+
+/* Links */
+.app-header .nav-links a {
+  text-decoration: none;
+  margin-left: 12px;
+  background: white;
+  color: #234;
+  padding: 8px 12px;
+  border-radius: 6px;
+  font-weight: 600;
+}
+
+.app.dark .app-header .nav-links a {
+  background: #333;
+  color: #fff;
+}
+
+/* Dark Mode Button */
+.btn-darkmode {
+  background: #2ecc71;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 700;
+}
+.app.dark .btn-darkmode {
+  background: #444;
+  color: #fff;
+}
+
+/* Dark cards */
+.app.dark .incident-card {
+  background: #222;
+  color: #eee;
+  box-shadow: 0 6px 12px rgba(255, 255, 255, 0.05);
+}
